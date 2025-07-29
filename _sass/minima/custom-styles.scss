@@ -1,0 +1,227 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+::selection {
+    background-color: #8C1515;
+    color: white;
+}
+
+.blog-bg{
+    background-color: white;
+}
+
+.pic-desc{
+    color: $lm-brand-color;
+    text-align: center;
+    display:block;
+    font-style:italic;
+}
+
+#hello{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+}
+.s-icon:hover{
+    opacity: 0.6;
+    transition:125ms;
+}
+
+.main_description{
+    font-weight: $base-font-weight !important;
+    color: $lm-brand-color;
+    font-weight: normal; 
+    margin:0 !important;
+}
+
+.cv-main-wrap{
+    display:grid; 
+    grid-template-columns:15% auto 1fr;
+}
+.cv-year{
+    color:gray;
+    font-size: 0.9em;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:0.5em;
+    text-align:right;
+}
+
+.cv-year-top{
+    color:gray;
+    margin-bottom:auto;
+    margin-right:0.5em;
+    text-align:right;
+
+}
+.cv-year-point-top{
+    width:0.5em;
+    height:0.5em;
+    border-radius:50%;
+    background-color:gray;
+    z-index:1;
+    border:0.3em solid white;
+}
+
+.cv-year-point{
+    width:0.7em;
+    height:0.7em;
+    border-radius:50%;
+    background-color:gray;
+    margin:auto;
+    z-index:1;
+    border:0.33em solid whitesmoke;
+}
+.cv-main-desc{
+    border-left:1px solid lightgray;
+    padding-left:1.5em;
+    margin-left:-0.725em;
+    padding-bottom: 1.1em;
+    padding-top: 1.1em;
+}
+.cv-main-desc img{
+    pointer-events: none;
+    filter:brightness(0%);
+    display:block;
+    margin:10px 0;
+    height:1.6em;
+}
+hr {
+    border: 0.5px solid lightgray;
+    margin: 1em 0 1em 0; 
+}
+
+.pic-list{
+    max-height: 50px;
+    height:auto;
+    width: auto;
+    max-width: 100%;
+    margin-left:auto;
+}
+.research-container {
+    padding-left: 1em;
+    margin: 0.5em 0 0 0;
+}
+.blog-headline {
+    font-weight: normal;
+    width: fit-content;
+    cursor: pointer;
+    margin: 0.5em 0 0 0 !important;
+}
+
+.blog-headline a {
+    font-weight: 500;
+    color: $heading-color !important;
+}
+
+.blog-headline a:hover {
+    color: $link-base-color !important;
+}
+
+.author-list {
+    font-style: italic;
+}
+.abstract {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.two-columns{
+    margin-bottom: 2em;
+}
+
+.desc{
+    color:#707070;
+    display:block;
+    font-size: 0.95em;
+}
+
+.conference-logo {
+    filter: brightness(100%);
+    margin: 1em 0;
+    max-height: 1.5em;
+    width: auto;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.conference-logo:hover {
+    cursor: pointer;
+    transition: 0.25s;
+    scale: 1.5;
+}
+.site-title{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 750px) {
+  .two-columns{
+    display: grid !important;
+    grid-template-columns: 1fr;
+  }
+
+  #main-pic {
+    height: 200px;
+    width: 200px;
+    margin: 5px auto;
+    border-radius: 50%;
+    display: block;
+    pointer-events: none;
+    margin-bottom:20px;
+  }
+
+  #hello {
+    text-align: center;
+  }
+
+  .s-icon{
+    filter: brightness(0%);
+      margin: 15px;
+      height: 30px;
+      width: auto;
+      vertical-align: bottom;
+  }
+  .left-pc-center-mob{
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 750px) {
+    .two-columns{
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 1fr;
+      gap: 1em;
+    }
+
+    #main-pic { 
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        pointer-events: none;
+        margin-left: auto;
+        margin-right:10px;
+      }
+
+    #hello {
+    text-align: left;
+    }
+    .left-pc-center-mob{
+        text-align: left !important;
+    }
+
+    .s-icon{
+        filter: brightness(0%);
+        margin: 10px 5px;
+        height: 30px;
+        width: auto;
+        vertical-align: bottom;
+    }
+    .left-pc-center-mob{
+        text-align: left !important;
+      }
+  }
