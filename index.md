@@ -30,8 +30,7 @@ title: Home
 ### About me
 ---
 
-I am a Computer Science student at <a href="https://inf.ethz.ch">ETH Zurich</a>, majoring in Machine Intelligence.
-I work as a research assistant in machine learning at its intersection with neuroscience. Previously, I interned at SAP and Venture Valuation.
+This is a description about you.
 
 <div class="cv-main-wrap">
 
@@ -51,36 +50,6 @@ I work as a research assistant in machine learning at its intersection with neur
       <a target="_blank" href="https://www.psychology.uzh.ch/en/areas/nec/plafor/team/Head-of-Discipline/Langer.html">Prof. Nicolas Langer</a>'s UZH Methods of Plasticity Research Group.</span>
   </span>
 
- 
-  
-  <div class="cv-year">
-    2022
-  </div>
-  <div class="cv-year-point"></div>
-  <span class="cv-main-desc">
-    <img  src="assets/images/vv_logo.png" alt>
-    <b>Software Development Intern</b>  
-    <span class="desc">Zurich, Switzerland</span>
-    
-  </span>
-
-
-
- 
-
-  
-
-
-  <div class="cv-year">
-    2019
-  </div>
-  <div class="cv-year-point"></div>
-  <span class="cv-main-desc">
-    <img  src="assets/images/SAP_logo.png" alt>
-    <b>Software Development Intern</b> <br>
-     <span class="desc">Walldorf, Germany</span>
-  
-  </span>
 
 
 
@@ -122,15 +91,14 @@ I work as a research assistant in machine learning at its intersection with neur
 ---
 
 <div style="display:grid;grid-template-columns: 15% 1fr;align-items: center; row-gap: 20px;">
-<img class="pic-list" src="assets/images/thesis-cover.png" style="max-height: fit-content;border-radius: 10px;">
+<img class="pic-list" src="SOURCE" style="max-height: fit-content;border-radius: 10px;">
 <div class="research-container">
     <h4 class="blog-headline" onclick="toggleAbstract(this)" style="padding-top: 0;">
     <a>
-        👨‍🍳 Coming up... 
+        Name of publication
     </a>
     </h4>
-    <div style="height: 15px;background-color: #e6e6e6; width: 100%;margin: 10px 0;"></div>
-    <div style="height: 45px;background-color: #e6e6e6; width: 100%;margin: 10px 0;"></div>
+    <span>Replace with your description / authors etc.</span>
 </div>
 
 </div>
